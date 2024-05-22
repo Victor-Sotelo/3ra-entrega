@@ -1,0 +1,17 @@
+@media (max-width: 1024px){
+    header{
+        @include flex(column, center, center, 1.5625rem);
+        background-color: lightgreen;
+        flex-wrap: nowrap;
+    }
+    main{
+        @include flex(column, center, center, 12pxm);
+        text-size-adjust: 1.25rem;
+        flex-wrap: nowrap;
+    }
+    footer{
+        @include flex(column, center, center, 1.5625rem);
+        background-color: lightgreen;
+        flex-wrap: nowrap;
+    }
+}

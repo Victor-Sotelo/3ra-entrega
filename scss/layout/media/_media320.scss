@@ -1,0 +1,17 @@
+@media (max-width: 320px){
+    header{
+        @include flex(row, left, left, 12px);
+        background-color: rgb(7, 145, 243);
+        flex-wrap: nowrap;
+    }
+    main{
+        @include flex(row, left, left, 12pxm);
+        text-size-adjust: .75rem;
+        flex-wrap: nowrap;
+    }
+    footer{
+        @include flex(row, left, left, 12px);
+        background-color: rgb(7, 145, 243);
+        flex-wrap: nowrap;
+    }
+}
